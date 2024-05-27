@@ -33,7 +33,7 @@ function SearchVideoList({ videos }) {
                 loading ? <Loader /> : 
                 <VideoList
                     videos={foundVideos}
-                    emptyHeading={`Sem vídeos sobre "${searchText}"`}
+                    emptyHeading={`Não há vídeos sobre "${searchText}"`}
                 />
             }
         </section>
