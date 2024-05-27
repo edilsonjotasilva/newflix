@@ -1,0 +1,13 @@
+.container{
+    padding-top: 84px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    padding-top: 150px;
+    font-size: 36px;
+    font-weight: 600;
+}

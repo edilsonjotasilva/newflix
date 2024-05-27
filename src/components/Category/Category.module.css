@@ -1,0 +1,18 @@
+.category{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+   
+    min-width: 280px;
+    max-width: 1200px;
+}
+
+.category div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+    height: 200px;
+    width: 100%;
+
+}
